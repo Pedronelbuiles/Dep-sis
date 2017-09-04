@@ -113,6 +113,31 @@ a.dropdown-item:hover{
 .servicios{
     margin-top: 50px;
 }
+
+.titulo_paquete{
+    margin-top: 160px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.precio{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.ofrece h5{
+    margin-bottom: 20px;
+}
+
+.card-deck{
+    margin-top: 160px;
+    margin-bottom: 40px;
+}
+
+.card-header{
+    border-radius: 10px !important;
+}
+
 /* estilos del video de nosotros*/
 
 .homepage-hero-module {
