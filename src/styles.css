@@ -1,1 +1,227 @@
 /* You can add global styles to this file, and also import other style files */
+.borde{
+	border: red 2px solid;
+}
+
+.cabecera{
+    position: fixed;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+.mt{
+    margin-top: 15px
+}
+
+.opciones{
+	padding-top: 40px;
+}
+
+.logo{
+	text-align: center;
+}
+
+.logo img{	
+	width: 75%;
+}
+
+.logo-footer img{
+	width: 50%;
+	padding-left: 0;
+}
+
+.btn-depsis{
+	width: max-content;
+}
+
+li.nav-item.dropdown:hover{
+    background-color: #0275d8;
+    border-radius: 5px;
+}
+
+li.nav-item:hover{
+    background-color: #0275d8;
+    color: white;
+    border-radius: 5px;
+}
+
+li a.nav-link:hover{
+    color: white !important;
+}
+
+a.dropdown-item:hover{
+	background-color: #0275d8;
+	color: white;
+}
+
+.resalto{
+    z-index: 200;
+}
+
+.titulo{
+    display: block;
+    color: white;
+}
+
+.flex{
+    display: block !important;
+    text-align: center;
+}
+
+.titulo_texto{
+    margin-bottom: 25px;
+}
+
+.primerTexto{
+    margin-top: 140px;
+}
+
+.quienes_somos{
+    margin-top: 40px;
+}
+
+.img_team{
+    width: 340px;
+    border-radius: 5px;
+    float: left;
+}
+.nosotros_team{
+    width: 500px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.visible{
+    display: block;
+}
+
+.texto{
+    margin-left: 355px;
+    font-size: 1.15rem;
+}
+
+.concepto{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.29rem;
+}
+
+.servicios{
+    margin-top: 50px;
+}
+/* estilos del video de nosotros*/
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+
+.filter img{
+    margin-top: 30%;
+}
+
+/*.video-container video.fillWidth {
+    width: 100%;
+}*/
+/* estilos del video de nosotros*/
+
+/* menu sticky*/
+.main-nav{
+  position: relative; 
+  font-family: 'Catamaran', sans-serif;
+}
+.main-nav {
+  background: #fff;
+  height: 123px;
+  z-index: 150;
+  margin-bottom: -80px;
+}
+
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  z-index: 300;
+}
+/* menu sticky*/
+
+/* reestableciendo valores de bootstrap*/
+.card-header{
+    background-color: #0275d8 !important;
+    color: white;
+}
+
+/* reestableciendo valores de bootstrap*/
+
+/*estilos de masinfo*/
+
+.masinfo h3, .nombre_servicio h3{
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.masinfo ul{
+    margin-left: 40px;
+}
+
+.masinfo ul strong{
+    font-size: 1.2rem;
+}
+
+.precios, .terminosYcondiciones, .pagos, .infoImpor, .cotizacion, .explicacion, .contenido_servicio, .tareas{
+    margin-top: 40px;
+}
+
+.cotizacion{
+    text-align: center;
+    margin-bottom: 40px;
+}
+/*estilos de masinfo*/
+
+.cotizar{
+    margin-top: 160px;
+    text-align: center;
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
+    cursor: pointer !important;
+}

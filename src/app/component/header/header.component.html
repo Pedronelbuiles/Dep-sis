@@ -1,0 +1,46 @@
+<header>
+      <div class="container main-nav-scrolled">
+        <div class="row justify-content-md-center ">
+
+                    <!-- menu lado izquierdo -->
+          <div class="col col-lg-2 opciones">
+            <ul class="nav nav-pills ">
+              <li class="nav-item">
+                <a class="nav-link" routerLink="nosotros" routerLinkActive="active" >Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle btn-depsis" data-toggle="dropdown" href="#" role="button">Dep-sis</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" [routerLink]="['/planesDepsis','Df']">{{ _hs.header.TituloDf }}</a>
+                  <a class="dropdown-item" [routerLink]="['/planesDepsis','Ds']">{{ _hs.header.TituloDs }}</a>
+                  <a class="dropdown-item" [routerLink]="['/planesDepsis','Dp']">{{_hs.header.TituloDp}}</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+            <!-- logo --> 
+          <div class="col-12 col-md-auto logo">
+            <img src="https://firebasestorage.googleapis.com/v0/b/portafolio-61cf8.appspot.com/o/Capture.PNG?alt=media&token=8cbb9af6-9350-41ed-80a0-7e2a834c9b2b">
+          </div>
+
+          <!-- menu de la derecha --> 
+          <div class="col col-lg-2 opciones">
+             <ul class="nav nav-pills">
+              <li class="nav-item dropdown" >
+                <a class="nav-link dropdown-toggle btn-depsis" data-toggle="dropdown" href="#" role="button">Servicios</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" routerLink="serviciospw" routerLinkActive="active">Página Web</a>
+                  <a class="dropdown-item" [routerLink]="['/otrosservicios','Cm']">{{_hs.header.TituloCm}}</a>
+                  <a class="dropdown-item" [routerLink]="['/otrosservicios','Smm']">{{_hs.header.TituloSmm}}</a>
+                  <a class="dropdown-item" [routerLink]="['/otrosservicios','Damm']">{{_hs.header.TituloDam}}</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tienda</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
