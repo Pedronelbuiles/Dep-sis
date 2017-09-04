@@ -72,6 +72,9 @@ a.dropdown-item:hover{
 
 .titulo_texto{
     margin-bottom: 25px;
+    text-align: center;
+    font-size: 2.3rem;
+    color: #0275d8;
 }
 
 .primerTexto{
@@ -105,7 +108,7 @@ a.dropdown-item:hover{
 }
 
 .concepto{
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
     font-size: 1.29rem;
 }
@@ -222,10 +225,13 @@ a.dropdown-item:hover{
 
 /*estilos de masinfo*/
 
-.masinfo h3, .nombre_servicio h3{
+.masinfo h3, .nombre_servicio h3, .titulo_paquete h3{
     margin-top: 200px;
     text-align: center;
     margin-bottom: 50px;
+    font-family: 'Catamaran', sans-serif;
+    color: #0275d8;
+    font-size: 3rem;
 }
 
 .masinfo ul{
@@ -253,4 +259,8 @@ a.dropdown-item:hover{
 
 .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
     cursor: pointer !important;
+}
+
+.precio{
+    font-size: 1.5rem;
 }
