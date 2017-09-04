@@ -138,6 +138,10 @@ a.dropdown-item:hover{
     border-radius: 10px !important;
 }
 
+.contenido_servicio h5, .tareas h5{
+    margin-bottom: 20px;
+}
+
 /* estilos del video de nosotros*/
 
 .homepage-hero-module {
