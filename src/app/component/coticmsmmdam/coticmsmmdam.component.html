@@ -7,13 +7,44 @@
 			<p>Explicación... Lorem ipsum dolor sit amet, consectetur adipisicing el.</p>
 			<h6>Presupuesto para el proyecto</h6>
 			<p>Explicación... Lorem ipsum dolor sit amet, consectetur adipisicing el.</p>
-			<form>
-				<input type="text" name="nombre">
-				<input type="email" name="email">
-				<input type="number" name="tel">
-				<textarea>Descripción del proyecto</textarea>
-				<input type="number" name="presuide">
-				<input type="number" name="presupro">
+			<form action="https://formspree.io/ponercorreo" method="POST" class="formulario">
+				<div class="form-group row">
+				  <label for="example-text-input" class="col-2 col-form-label">Nombre</label>
+				  <div class="col-10">
+				    <input class="form-control" type="text" placeholder=" Elmer Curio " id="nombre">
+				  </div>
+				</div>
+				<div class="form-group row">
+				  <label for="example-email-input" class="col-2 col-form-label">Email</label>
+				  <div class="col-10">
+				    <input class="form-control" type="email" placeholder="andi.li.pues@escribeTuCorreo.com" id="correo">
+				  </div>
+				</div>
+				<div class="form-group row">
+				  <label for="example-tel-input" class="col-2 col-form-label">Telefono</label>
+				  <div class="col-10">
+				    <input class="form-control" type="tel" placeholder="300-000-5115" id="phone">
+				  </div>
+				</div>
+				<div class="form-group row">
+				   <label for="exampleTextarea" class="col-2">Descripción del proyecto</label>
+				   <div class="col-10">
+				   	<textarea class="form-control" id="proyect_description" rows="3"></textarea>
+				   </div>
+				 </div>
+				<div class="form-group row">
+				  <label for="example-number-input" class="col-2 col-form-label">Presupuesto ideal</label>
+				  <div class="col-10">
+				    <input class="form-control" type="number" placeholder="600.000 (en pesos Colombianos)" id="idealpre">
+				  </div>
+				</div>
+				<div class="form-group row">
+				  <label for="example-number-input" class="col-2 col-form-label">Presupuesto del proyecto</label>
+				  <div class="col-10">
+				    <input class="form-control" type="number" placeholder="900.000 (en pesos Colombianos)" id="propre">
+				  </div>
+				</div>
+				  <button type="submit" class="btn btn-outline-success">Submit</button>
 			</form>
 		</div>
 	</div>
