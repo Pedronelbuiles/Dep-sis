@@ -1,0 +1,41 @@
+{
+	"Df":{
+		"nombre_paquete":"Dep-sis Full",
+		"sub_titulo":"El paquete contiene:",
+		"precio":"1.450.000"
+	},
+	"Ds":{
+		"nombre_paquete":"Dep-sis Standar",
+		"sub_titulo":"El paquete contiene dos o tres de:",
+		"precio":"725.000 ó 1.087.500"
+	},
+	"Dp":{
+		"nombre_paquete":"Dep-sis personalisado",
+		"sub_titulo":"El paquete contiene todos los servicios de forma especializada:",
+		"precio":"2.000.000"
+	},
+	"Cm":{
+		"nombre_servicio":"Comunity manager",
+		"importancia":"texto largo que explica la importancia del servicio",
+		"incluye1":"incluye",
+		"descripcioni":"Administración de redes sociales",
+		"tarea1":"tarea1",
+		"descripciont":"Administrar las redes sociales"
+	},
+	"Smm":{
+		"nombre_servicio":"Social media manager",
+		"importancia":"texto largo que explica la importancia del servicio",
+		"incluye1":"incluye",
+		"descripcioni":"Crear estrategias para el crecimiento en redes sociales",
+		"tarea1":"tarea1",
+		"descripciont":"Hacer las estrategias"
+	},
+	"Damm":{
+		"nombre_servicio":"Desarrollo web a la medida",
+		"importancia":"texto largo que explica la importancia del servicio",
+		"incluye1":"incluye",
+		"descripcioni":"Hacer un desarrollo web enfocado en necesidades especificas",
+		"tarea1":"tarea1",
+		"descripciont":"programar"
+	}
+}

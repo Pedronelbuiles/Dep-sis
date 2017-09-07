@@ -1,0 +1,45 @@
+{
+	"pagina_basica":{
+		"nombre_producto":"Página básica",
+		"caracteristica1":"Máximo 6 (seis) páginas. funciona",
+		"descripcion_carac1":"Descripcion de la caracteristica funciona cambia",
+		"caracteristica2":"Máximo 6 (seis) páginas. funciona",
+		"descripcion_carac2":"Descripcion de la caracteristica",
+		"caracteristica3":"Máximo 6 (seis) páginas. funciona",
+		"descripcion_carac3":"Descripcion de la caracteristica",
+		"caracteristica4":"Máximo 6 (seis) páginas. funciona",
+		"descripcion_carac4":"Descripcion de la caracteristica"
+	},
+	"pagina_profesional":{
+		"nombre_producto":"Página Profesional",
+		"caracteristica1":"Máximo 20 (veinte) páginas.",
+		"descripcion_carac1":"Descripcion de la caracteristica",
+		"caracteristica2":"Máximo 6 (seis) páginas. funciona",
+		"descripcion_carac2":"Descripcion de la caracteristica",
+		"caracteristica3":"Máximo 6 (seis) páginas. funciona",
+		"descripcion_carac3":"Descripcion de la caracteristica",
+		"caracteristica4":"Máximo 6 (seis) páginas. funciona",
+		"descripcion_carac4":"Descripcion de la caracteristica",
+		"caracteristica5":"Máximo 6 (seis) páginas. funciona",
+		"descripcion_carac5":"Descripcion de la caracteristica",
+		"caracteristica6":"Máximo 6 (seis) páginas. funciona",
+		"descripcion_carac6":"Descripcion de la caracteristica"
+	},
+	"tienda_online":{
+		"nombre_producto":"Página Profesional",
+		"caracteristica1":"Máximo 20 (veinte) páginas.",
+		"descripcion_carac1":"Descripcion de la caracteristica",
+		"caracteristica2":"Máximo 6 (seis) páginas. funciona",
+		"descripcion_carac2":"Descripcion de la caracteristica",
+		"caracteristica3":"Máximo 6 (seis) páginas. funciona",
+		"descripcion_carac3":"Descripcion de la caracteristica",
+		"caracteristica4":"Máximo 6 (seis) páginas. funciona",
+		"descripcion_carac4":"Descripcion de la caracteristica",
+		"caracteristica5":"Máximo 6 (seis) páginas. funciona",
+		"descripcion_carac5":"Descripcion de la caracteristica",
+		"caracteristica6":"Máximo 6 (seis) páginas. funciona",
+		"descripcion_carac6":"Descripcion de la caracteristica",
+		"caracteristica7":"Máximo 6 (seis) páginas. funciona",
+		"descripcion_carac7":"Descripcion de la caracteristica"
+	}
+}
