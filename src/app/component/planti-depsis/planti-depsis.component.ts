@@ -14,7 +14,7 @@ export class PlantiDepsisComponent {
   	route.params.subscribe( parametros => {
   		_mi.cargar_servicio(parametros['id'])
   			.subscribe(res => {
-  				this.servicio = res.json();
+  				this.servicio = res.json();        
   			})
   	})
   }

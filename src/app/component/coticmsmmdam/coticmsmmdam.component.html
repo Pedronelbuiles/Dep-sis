@@ -7,42 +7,118 @@
 			<p>Explicación... Lorem ipsum dolor sit amet, consectetur adipisicing el.</p>
 			<h6>Presupuesto para el proyecto</h6>
 			<p>Explicación... Lorem ipsum dolor sit amet, consectetur adipisicing el.</p>
-			<form action="https://formspree.io/ponercorreo" method="POST" class="formulario">
+			<form action="https://formspree.io/depsissell@gmail.com" method="POST" class="formulario">
 				<div class="form-group row">
-				  <label for="example-text-input" class="col-2 col-form-label">Nombre</label>
+				  <label for="example-text-input" class="col-2 col-form-label" >Nombre</label>
 				  <div class="col-10">
-				    <input class="form-control" type="text" placeholder=" Elmer Curio " id="nombre">
+				    <input class="form-control" type="text" placeholder=" Elmer Curio " name="nombre" required="required">
 				  </div>
 				</div>
 				<div class="form-group row">
 				  <label for="example-email-input" class="col-2 col-form-label">Email</label>
 				  <div class="col-10">
-				    <input class="form-control" type="email" placeholder="andi.li.pues@escribeTuCorreo.com" id="correo">
+				    <input class="form-control" type="email" placeholder="andi.li.pues@escribeTuCorreo.com" name="correo" required="required">
 				  </div>
 				</div>
 				<div class="form-group row">
 				  <label for="example-tel-input" class="col-2 col-form-label">Telefono</label>
 				  <div class="col-10">
-				    <input class="form-control" type="tel" placeholder="300-000-5115" id="phone">
+				    <input class="form-control" type="tel" placeholder="300-000-5115" name="phone">
 				  </div>
 				</div>
 				<div class="form-group row">
 				   <label for="exampleTextarea" class="col-2">Descripción del proyecto</label>
 				   <div class="col-10">
-				   	<textarea class="form-control" id="proyect_description" rows="3"></textarea>
+				   	<textarea class="form-control" name="proyect_description" rows="3" required="required"></textarea>
 				   </div>
 				 </div>
 				<div class="form-group row">
 				  <label for="example-number-input" class="col-2 col-form-label">Presupuesto ideal</label>
 				  <div class="col-10">
-				    <input class="form-control" type="number" placeholder="600.000 (en pesos Colombianos)" id="idealpre">
+				    <input class="form-control" type="number" placeholder="600.000 (en pesos Colombianos)" name="idealpre">
 				  </div>
 				</div>
 				<div class="form-group row">
 				  <label for="example-number-input" class="col-2 col-form-label">Presupuesto del proyecto</label>
 				  <div class="col-10">
-				    <input class="form-control" type="number" placeholder="900.000 (en pesos Colombianos)" id="propre">
+				    <input class="form-control" type="number" placeholder="900.000 (en pesos Colombianos)" name="propre" required="required">
 				  </div>
+				</div>
+				<div class="botones row">
+					<div class="paquetes col-4">
+						<strong>Paquetes</strong>
+						<div class="oc">
+							<div class="form-check">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="paqueteFull" value="full" checked>
+							    Paquete Dep-sis Full
+							  </label>
+							</div>
+							<div class="form-check">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="paqueteStandar" value="standar">
+							    Paquete Dep-sis Standar
+							  </label>
+							</div>
+							<div class="form-check">
+							  <label class="form-check-label">
+							    <input class="form-check-input" type="radio" name="paquetePersonal" value="personalisada">
+							    Paquete Dep-sis Personalizado
+							  </label>
+							</div>
+						</div>
+					</div>
+					<div class="serviciosbtn col-8">
+						<strong>Servicios</strong>
+						<div class="row">
+							<div class="col-6">
+								<div class="form-check">
+								  <label class="form-check-label">
+								    <input class="form-check-input" type="checkbox" value="" name="webSimple">
+								    Página web sencilla
+								  </label>
+								</div>
+								<div class="form-check">
+								  <label class="form-check-label">
+								    <input class="form-check-input" type="checkbox" value="" name="webpro">
+								    Página web profesional
+								  </label>
+								</div>
+								<div class="form-check">
+								  <label class="form-check-label">
+								    <input class="form-check-input" type="checkbox" value="" name="webpers">
+								    Tienda online
+								  </label>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="form-check">
+								  <label class="form-check-label">
+								    <input class="form-check-input" type="checkbox" value="" name="Cm">
+								    Community manager
+								  </label>
+								</div>
+								<div class="form-check">
+								  <label class="form-check-label">
+								    <input class="form-check-input" type="checkbox" value="" name="Smm">
+								    Social media manager
+								  </label>
+								</div>
+								<div class="form-check">
+								  <label class="form-check-label">
+								    <input class="form-check-input" type="checkbox" value="" name="Dam">
+								    Desarrollo web a la medida
+								  </label>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="form-check">
+				  <label class="form-check-label">
+				    <input class="form-check-input" type="checkbox" value="" required="required" name=acepto>
+				    Acepto los terminos y condiciones (puedes ver el documento completo <a href="./assets/Terminos y condiciones.pdf">aquí</a>)
+				  </label>
 				</div>
 				  <button type="submit" class="btn btn-outline-success">Submit</button>
 			</form>

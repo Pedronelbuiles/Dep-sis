@@ -222,6 +222,19 @@ a.dropdown-item:hover{
     padding: 10px;
 }
 
+.formulario{
+    background-color: #d8d8d0;
+    padding: 15px;
+}
+
 .formulario label{
     text-align: left;
+}
+
+.botones{
+    margin-top: 20px;
+}
+
+.paquetes .oc, .serviciosbtn .row{
+    margin-top: 20px;
 }
