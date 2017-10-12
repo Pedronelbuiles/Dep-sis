@@ -253,6 +253,9 @@ footer{
     .opciones{
         padding-left: 33px;
     }
+    .logo img{
+        width: 75%;
+    }
 }
 
 @media screen and (max-width: 640px){
