@@ -248,3 +248,59 @@ a.dropdown-item:hover{
 footer{
     margin-top: 50px;
 }
+
+@media screen and (max-width: 768px){
+    .opciones{
+        padding-left: 33px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .opciones{
+        padding-left: 15px;
+    }
+    .texto{
+        margin-left: 0;
+    }
+    .img_team{
+        float: none;
+        width: 500px;
+        padding-bottom: 20px;
+    }
+    .nosotros_team{
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .opciones{
+        padding-top: 10px;
+    }
+    .opciones ul{
+        margin-left: 120px;
+    }
+    .logo img{
+        width: 200px;
+    }
+    .primerTexto{
+        margin-top: 340px;
+    }
+    .img_team, .nosotros_team{
+        width: 400px;
+    }
+    .primer-card{
+        margin-top: 280px;
+    }
+    .nombre_servicio{
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .opciones ul{
+        margin-left: 0;
+    }
+    .img_team, .nosotros_team{
+        width: 250px;
+    }
+}
